@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+<title>Our Branches</title>
+
+<style>
+    .header{
+    height: 100px;
+    width: 100%;
+    background-color:#f4d261;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    border-radius: 0 0 20px 20px;
+
+}
+ #progress {
+    position: fixed;
+    bottom: 5px;
+    right: 17px;
+    height: 60px;
+    width: 60px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  #progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #fe7e15;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+  }
+.logo{
+    width: 100px;
+    padding-right:5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+.nav-links{
+    padding-top: 0px;
+    margin-top: 4px;
+}
+.nav-links li
+{
+    display: inline-block;
+    margin: 10px 30px;
+    color:white;
+    /* background-color: #8B4513; */
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-links li a {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #C4A484;
+    padding: 12px;
+    border: 2px solid #aea0a0 !important;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+.nav-links li a:hover {
+    color: #C4A484 !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+body{
+   background-image:url(web\ background.jpg);
+   background-position: center;
+   background-repeat: repeat;
+   padding-top: 134px;
+}
+  body { font-family: Arial, sans-serif; }
+  .branch-container { display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 50px; }
+  .branch-photo { flex: 1; padding: 10px; }
+  .branch-photo img { width: 100%; height: auto; border-radius: 10px; }
+  .branch-details { flex: 1;  text-align: center;font-family: sans-serif;background-color: black;color: white; margin-bottom: 35px;margin-top: 20px;border-radius: 20px;}
+  .branch-map { height: 200px; background-color: #ddd; margin-top: 10px; }
+  /* Add your map integration styles here */
+  /* Alternate styles for second branch */
+  .branch-container:nth-child(even) .branch-photo { order: 2; }
+  .branch-container:nth-child(even) .branch-details { order: 1; }
+</style>
+</head>
+<body>
+  <div id="progress">
+      <span id="progress-value">&#x1F815;</span>
+      </div>
+  <div class="header" style="left: 0px;">
+    <img src="[removal.ai]_tmp-6291b7b4403f1.png" class="logo">
+    <nav>
+        <ul class="nav-links"style="padding-top: 5px";>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="our collection.html">OUR COLLECTION</a></li>
+            <li><a href="branch.html">BRANCH</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </nav>
+</div> 
+<div class="branch-container">
+  <div class="branch-photo">
+    <img src="1branch.jpg" alt="First Branch Photo">
+  </div>
+  <div class="branch-details">
+    <h3>Manek chowk Branch</h3>
+                ZAVERI CHAMBER,<br>
+                M.G.HAVELI ROAD,<br>
+                MANEKCHOWK,AHMEDABAD-01.
+                <br>
+    <div class="branch-map">
+     <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14688.212091284831!2d72.5898062!3d23.0218253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6474e6c318ee6ba!2sKrish%20Gold!5e0!3m2!1sen!2sin!4v1655459509265!5m2!1sen!2sin"
+            width="742" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="branch-container" style="padding-top: 70px;" >
+  <div class="branch-photo">
+    <img src="2branch.jpg" alt="Second Branch Photo">
+  </div>
+  <div class="branch-details">
+    <h3>Vadodara Mandvi Branch</h3>
+           GHADIYALI POLE,<BR>
+           AMBA MATA'S TEMPLE GALI,<BR>
+           MANDVI,VADODARA-01.
+        <br>
+    <div class="branch-map">
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14688.212091284831!2d72.5898062!3d23.0218253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6474e6c318ee6ba!2sKrish%20Gold!5e0!3m2!1sen!2sin!4v1655459509265!5m2!1sen!2sin"
+      width="742" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
